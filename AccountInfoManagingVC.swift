@@ -89,6 +89,7 @@ class AccountInfoManagingVC: UIViewController, UIImagePickerControllerDelegate, 
         }
         profilePicView.image = pickedImage
         dismiss(animated: true, completion: nil)
+        print("makechange")
         
     }
     
